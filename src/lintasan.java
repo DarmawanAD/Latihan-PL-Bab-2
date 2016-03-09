@@ -1,14 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package bab1;
-
-/**
- *
- * @author AD
- */
-public class lintasan {
-    
+class lintasan {
+    private int p, l, k;
+    public lintasan(int pjg, int lbr) {
+        p = pjg;
+        l = lbr;
+        k = 2 * (p + l);
+    }
+    public int getK() {
+        return k;
+    }
 }
