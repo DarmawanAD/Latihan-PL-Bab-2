@@ -1,7 +1,7 @@
 class pelari {
     private String nama, nim;
-    private int s, t;
-    public pelari(String nm, String nimp, int munyer, int waktu) {
+    private double s, t;
+    public pelari(String nm, String nimp, double munyer, double waktu) {
         nama = nm;
         nim = nimp;
         s = munyer;
@@ -10,7 +10,7 @@ class pelari {
     public String getNama() {
         return nama;
     }
-    public int v() {
+    public double v() {
         return s / t;
     }
     public boolean seleksi(pelari zzz) {
